@@ -25,7 +25,7 @@ class Header extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col">
-                                <h1>SeeFood Diet</h1>
+                                <h1>See-Food Diet</h1>
                             </div>
                         </div>
                     </div>
