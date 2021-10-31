@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const reviews = 
 [
     {
@@ -52,3 +53,5 @@ export const reviews =
     
     },
 ]
+=======
+>>>>>>> 4e9dc531ea2640c311de94ef1fb77d268bb1a847

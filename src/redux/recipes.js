@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export const recipes = 
 [
     {
@@ -52,3 +53,23 @@ export const recipes =
     
     },
 ]
+=======
+import * as ActionTypes from './ActionTypes';
+
+export const Recipes = (state = {
+    isLoading: true,
+    errMess: null,
+    recipes: []
+}, action) => {
+    switch (action.type) {
+        case ActionTypes.ADD_RECIPES:
+            return {...state, isLoading: false, errMess: null, recipes: action.payload};
+        case ActionTypes.RECIPES_LOADING:
+            return {...state, isLoading: true, errMess: null, recipes: []};
+        case ActionTypes.RECIPES_FAILED:
+            return {...state, isLoading: false, errMess: action.payload};
+        default:
+            return state;
+    }
+};
+>>>>>>> 4e9dc531ea2640c311de94ef1fb77d268bb1a847
