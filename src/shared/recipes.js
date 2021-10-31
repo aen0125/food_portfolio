@@ -3,8 +3,8 @@ export const recipes =
 [
     {
         id: 0,
-        food: `Miso Noodle Veggie Soup`,
-        basicInfo: `1 Serving -- basic facts 
+        name: `Miso Noodle Veggie Soup`,
+        description: `1 Serving -- basic facts 
         Calories: ~35 
         Net carbs: ~1g 
         Sodium: ~520mg 
@@ -17,8 +17,8 @@ export const recipes =
         prep: `1. I'd recommend to boil water and rinse 1 pack of Shirataki fettuccine 
         noodle thoroughly to get rid of the fishy smell. Don't reuse the fishy water with miso soup!
         2. Use 4 ounces of coleslaw mix. Wash the coleslaw and drain.
-        3. Pour 6 oz of water into a pot with 1 serving of the miso soup base with the cole slaw until soup boils.`
-
+        3. Pour 6 oz of water into a pot with 1 serving of the miso soup base with the cole slaw until soup boils.`,
+        image: "/assets/images/wrap.jpg"
     },
     {
         id: 0,
